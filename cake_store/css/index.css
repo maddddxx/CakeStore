@@ -1,0 +1,150 @@
+body{
+    padding-right:15px !important;
+}
+.content>div{
+    padding-top: 50px;
+}
+.nav1{
+    width: 10%;
+    height: 50px;
+   padding-left: 15px;
+    display: inline;
+}
+.nav1 a{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: red !important;
+}
+
+.navbar-brand{
+    padding-top: 0;
+}
+.carousel{
+    width: 100% !important;
+}
+.carousel-inner .item img {
+    width: 100% !important; 
+    height: 500px !important;
+    }
+.carousel-inner > .item > img {
+    width:100% !important;
+    height:auto;
+  }
+.carousel {
+width:100% !important;
+height:auto;
+}
+.carousel-indicators li{
+    background-color: red;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: red;
+}
+[class*="bg-"]{
+    font-size: 30px;
+    font-weight: 600;
+}
+.thumbnail img{
+    width: 300px;
+    height: 400px;
+}
+.caption h3{
+    color: red;
+}
+.caption p{
+    font-size: 18px;
+}
+.more{
+    float: right;
+}
+.more .icon{
+    width: 50px;
+    height: 30px;
+    color: gray;
+}
+.icon1{
+    height: 60px;
+    width: 60px;
+}
+.circle{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+.circle a{
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+}
+#huiyuan{
+    height: 200px;
+}
+#about{
+    width: 100%;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .active > a{
+    color: red;
+}
+.peisong{
+    width: 33.3%;
+    float: left;
+}
+.p1{
+    margin-top: 5px;
+    height: 100%;
+    font-size: 20px;
+    border-left:1px solid red ;
+    padding-left: 13px;
+    float: left;
+}
+.icon2{
+   float: left;
+   width: 70px;
+   height: 70px;
+   margin: 0 2% 0 20%;
+}
+.p2{
+    color: red;
+    font-size: 30px;
+}
+.jiewei{
+    border-right:1px solid gray ;
+    margin-top: 3%;
+  padding-left: 10%;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    color: gray;
+    margin-left: 20px;
+}
+.nav2 a{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: red !important;
+}
+.jiewei1{
+    border-right:1px solid gray ;
+    margin-top: 3%;
+}
+.jiewei1 th{
+    margin-left: 50%;
+}
+.jiewei2{
+    margin-top: 3%;
+}
+.table{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.icon4{
+    color: white;
+}

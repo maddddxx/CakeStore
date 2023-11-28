@@ -1,0 +1,99 @@
+.nav{
+    margin-left: 21px !important;
+    height: 50px;
+    width: 100%;
+}
+.nav a{
+    color: red !important;
+    font-size: 20px;
+    text-decoration: none !important;
+   
+}
+.navbar-brand{
+    padding-top: 0 !important;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 10%;
+}
+.btn-danger{
+    margin-left: 30%;
+}
+.panel a{
+    color: brown !important;
+    text-decoration: none;
+}
+.panel-heading{
+    font-size: 30px;
+}
+.panel-body img{
+    height: 200px;
+    width: 100%;
+}
+.navbar-default .navbar-nav > .active > a{
+    color: red;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: red !important;
+}
+.peisong{
+    width: 33.3%;
+    float: left;
+}
+.p1{
+    margin-top: 5px;
+    height: 100%;
+    font-size: 20px;
+    border-left:1px solid red ;
+    padding-left: 13px;
+    float: left;
+}
+.icon2{
+   float: left;
+   width: 70px;
+   height: 70px;
+   margin: 0 2% 0 20%;
+}
+.p2{
+    color: red;
+    font-size: 30px;
+}
+.jiewei{
+    border-right:1px solid gray ;
+    margin-top: 3%;
+  padding-left: 10%;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    color: gray;
+    margin-left: 20px;
+}
+.nav2 a{
+    font-size: 20px;
+    text-decoration: none !important;
+    color: red ;
+}
+.jiewei1{
+    border-right:1px solid gray ;
+    margin-top: 3%;
+}
+.jiewei1 th{
+    margin-left: 50%;
+}
+.jiewei2{
+    margin-top: 3%;
+}
+.table{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.icon4{
+    color: white !important;
+}

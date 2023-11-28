@@ -1,0 +1,120 @@
+body{
+    font: 400 15px Lato, sans-serif;
+}
+a{
+    text-decoration: none !important;
+    color: red !important;
+}
+.con{
+    height: 50px;
+    padding-left: 0 !important;
+    margin-left: 0;
+}
+.navbar-brand{
+    padding-top: 0 !important;
+}
+.nav{
+    margin-left: 21px !important;
+}
+.nav a{
+    color: red !important;
+    font-size: 20px;
+    text-decoration: none !important;
+    padding-left: 10%;
+}
+.title {
+    font-size: 18px;
+    padding-top: 20px;
+    color: black;
+}
+.content{
+    background-image: url("../img/dl-bg.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.dl-form{
+    position: absolute;
+    margin-top: 5%;
+    height: 70%;
+    background-color: rgba(255,255,255, 0.7);
+}
+.form-horizontal{
+    margin-top: 5%;
+}
+.form-group{
+    width: 90%;
+}
+.active{
+    color: red;
+}
+.sub{
+    
+    width: 100%;
+}
+.other{
+    position: relative;
+}
+.other .col-md-3{
+    padding: 0; 
+    padding-top: 10px !important;
+    width: 60px;
+    color: gray;
+}
+hr{
+    background-color: gray ;
+    border: none !important;
+    height: 1px !important;
+    width: 30%;
+    float: left;
+    margin-top: 2% !important;
+    margin-left: 2%;
+}
+.mode a{
+    padding-left: 20%;
+    color: gray !important;
+}
+.mode1 a{
+    padding-left: 21.5%;
+    color: gray !important;
+}
+.qita{
+    float: left;
+    color: gray;
+    margin-left: 2%;
+}
+.posi{
+    position: absolute;
+    padding-left: 45%;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.other .icon{
+    color: gray;
+}
+.duiqi{
+    padding-left: 10px;
+    color: gray;
+}
+#fast .icon {
+    color: #f40;
+  }
+#fast img{
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+}  
+#fast p{
+    color: gray;
+    font-size: 20px;
+}
+#fast .col-md-1{
+    padding: 0;
+}
+
