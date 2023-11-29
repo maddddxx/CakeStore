@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音樂播放器</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="player-warp">
+      <div class="player-info">
+        <div class="info">
+          <div class="name">我記得</div>
+          <div class="singer-album">趙雷 - 署前街少年</div>
+          <div class="music_progress">
+            <div class="music_progress_top">
+              <span class="current-time">00:00</span>
+              <span class="time">05:29</span>
+            </div>
+            <div class="music_progress_bar">
+              <div class="music_progress_line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="player-control">
+        <div class="cover">
+          <img
+            src="http://p1.music.126.net/FCWD6ibS2JK2B3QAnXuzwQ==/109951167805892385.jpg?param=300x300"
+            alt="封面"
+          />
+        </div>
+        <div class="control">
+          <i id="prevBtn" class="fa fa-step-backward"></i>
+          <i id="playBtn" class="fa fa-play"></i>
+          <i id="nextBtn" class="fa fa-step-forward"></i>
+          <i id="openModal" class="fa fa-reorder"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="mask_bg"></div>
+
+    <div class="modal">
+      <div class="modal-box">
+        <div class="modal-box-top">
+          <div class="modal-title"></div>
+          <div class="modal-close">
+            <i class="fa fa-remove"></i>
+          </div>
+        </div>
+        <div class="modal-wrapper">
+          <ul class="music-list">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <audio src=""></audio>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
